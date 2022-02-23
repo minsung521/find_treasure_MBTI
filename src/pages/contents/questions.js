@@ -27,7 +27,7 @@ const questions = [
 				score: 0,
 			},
 		],
-		traits: "",
+		traits: "f/t",
 	},
 	{
 		//3
@@ -43,7 +43,7 @@ const questions = [
 				score: 0,
 			},
 		],
-		traits: "j/p",
+		traits: "e/i",
 	},
 	{
 		//4
@@ -58,7 +58,7 @@ const questions = [
 				score: 0,
 			},
 		],
-		traits: "j/p",
+		traits: "s/n",
 	},
 	{
 		//5
@@ -66,11 +66,11 @@ const questions = [
 		answers: [
 			{
 				text: "보물 찾기는 시간 싸움! 정보를 수집할 시간에 마음 가는 길로 가본다.",
-				score: 1,
+				score: 0,
 			},
 			{
 				text: "확실한 정보가 없다면 시간을 지체할 수 있으니 확실하게 정보를 찾아보고 간다.",
-				score: 0,
+				score: 1,
 			},
 		],
 		traits: "j/p",
@@ -88,7 +88,7 @@ const questions = [
 				score: 0,
 			},
 		],
-		traits: "j/p",
+		traits: "s/n",
 	},
 	{
 		//7
@@ -103,7 +103,7 @@ const questions = [
 				score: 0,
 			},
 		],
-		traits: "j/p",
+		traits: "e/i",
 	},
 	{
 		//8
@@ -119,7 +119,7 @@ const questions = [
 				score: 0,
 			},
 		],
-		traits: "j/p",
+		traits: "f/t",
 	},
 	{
 		//9
@@ -134,7 +134,7 @@ const questions = [
 				score: 0,
 			},
 		],
-		traits: "j/p",
+		traits: "s/n",
 	},
 	{
 		//10
@@ -142,14 +142,14 @@ const questions = [
 		answers: [
 			{
 				text: "규칙이 꼼꼼하게 적혀 있는 규칙서를 읽는다.",
-				score: 1,
+				score: 0,
 			},
 			{
 				text: "글 읽기 귀찮은데… 중요한 규칙을 설명해 주는 영상을 본다.",
-				score: 0,
+				score: 1,
 			},
 		],
-		traits: "j/p",
+		traits: "e/i",
 	},
 	{
 		//11
@@ -174,14 +174,14 @@ const questions = [
 		answers: [
 			{
 				text: "산 타고 바다 가고 동굴까지… 한 일을 중심으로!",
-				score: 1,
+				score: 0,
 			},
 			{
 				text: "하… 정말 힘들었지만 뿌듯했다. 느낀 점 중심으로!",
-				score: 0,
+				score: 1,
 			},
 		],
-		traits: "j/p",
+		traits: "f/t",
 	},
 ];
 
