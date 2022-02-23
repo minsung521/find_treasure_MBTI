@@ -1,11 +1,11 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import AllResultPage from "./pages/AllResultPage";
 import DeveloperPage from "./pages/DeveloperPage";
 
 function App() {
 	return (
-		<Switch>
+		<Routes>
 			<Route
 				exact
 				path="/"
@@ -20,7 +20,7 @@ function App() {
 				path="/makers"
 				render={(props) => <DeveloperPage props={props} />}
 			></Route>
-		</Switch>
+		</Routes>
 	);
 }
 
